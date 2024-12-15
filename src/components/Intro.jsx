@@ -10,10 +10,9 @@ function Intro() {
         Creative Technologist
       </p>
       <p className="text-sm max-w-xl mb-6 font-light">
-        I am a Brooklyn based web developer, product manager, and
-        creative. Right now, I'm working on technology for the climate.
-        I make maps, videos, websites, graphics, articles, software, and
-        more.
+        I am a Stockholm based web developer, product manager, and creative.
+        Right now, I'm working on technology for the climate. I make maps,
+        videos, websites, graphics, articles, software, and more.
       </p>
     </div>
   );

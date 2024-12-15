@@ -5,7 +5,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import USFood from "./components/projects/USFood";
 import EarthIndex from "./components/projects/EarthIndex";
 import ClimateTRACE from "./components/projects/ClimateTRACE";
-import GothamWriters from "./components/projects/GothamWriters";
+import FranPortfolio from "./components/projects/FranPortfolio";
 
 function App() {
   return (
@@ -22,13 +22,10 @@ function App() {
         />
         <Route path="/projects/us-food" element={<USFood />} />
         <Route path="/projects/earth-index" element={<EarthIndex />} />
+        <Route path="/projects/climate-trace" element={<ClimateTRACE />} />
         <Route
-          path="/projects/climate-trace"
-          element={<ClimateTRACE />}
-        />
-        <Route
-          path="/projects/gotham-writers"
-          element={<GothamWriters />}
+          path="/projects/francesca-sabel-portfolio"
+          element={<FranPortfolio />}
         />
       </Routes>
     </Router>
